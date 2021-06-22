@@ -1,0 +1,154 @@
+@charset "UTF-8";
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #794820;
+  padding: 20px 70px;
+}
+nav ul li {
+  font-size: 20px;
+  text-align: center;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+#top {
+  height: 700px;
+  background: url(../img/top画像.jpg) no-repeat center;
+  background-size: cover;
+}
+.top_wrap h1 {
+  float: left;
+  color:#fff;
+  font-size: 40px;
+  margin: 300px;
+  letter-spacing: 4px;
+}
+.top-wrap span {
+  color: #148258;
+}
+#menu {
+  width: 75%;
+  margin: 100px auto;
+}
+.section_title {
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #794820;
+}
+.menu_wrap {
+  display: flex;
+  flex-flow: column;
+}
+.menu_list{
+  background-color: #b5a276;
+  padding: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu_list h3 {
+  color: #794820;
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+.menu_list p {
+  font-size: 18px;
+  line-height: 150%;
+  color:#fff
+}
+.menu_right {
+  width: 50%;
+  height: auto;
+}
+.menu_left {
+  margin-right: 50px;
+}
+.menu_left img {
+  width: 80%;
+  height: auto;
+
+}
+#news {
+  width: 75%;
+  margin: 100px auto;
+}
+.news_wrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.news_wrap p {
+  line-height: 2.5;
+}
+#recruit {
+  width: 75%;
+  margin: 100px auto;
+}
+.recruit_wrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.recruit_wrap h3 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.recruit_wrap p {
+  line-height: 1.5;
+}
+.recruit_info ul {
+  max-width: 400px;
+  margin: 20px auto;
+  list-style: none;
+}
+.recruit_info li {
+  line-height: 1.5;
+}
+#contact {
+  background-color: rgb(241,241,241);
+}
+#contact h2 {
+  padding: 40px 0;
+}
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+input {
+  padding: 6px;
+}
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+.button_submit {
+  text-align: center;
+}
+.button {
+  padding: 10px 50px;
+  background-color: #794820;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+#footer {
+  background-color: #794820;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
